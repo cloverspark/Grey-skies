@@ -1,3 +1,42 @@
-H1 {
+body {
+	padding:3%;
+}
+
+h1 {
+	text-align: center;
 	color:#D5B6AE
+}
+
+p {
+	text-align:center;
+	font-size:30px;
+	font-family:Garamond;
+}
+
+.pNormal {
+	font-size:16px;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.pTitle {
+
+	white-space:pre-wrap;
+	font-size:24px;
+	color:grey;
+	font-family: 'Arial';
+	text-transform: uppercase;
+	letter-spacing: .5rem;
+	padding-left:10%;
+	padding-right:10%;
+	font-weight:bold;
+}
+
+#checkAvailability {
+	text-align: center;
+	color:white;
+	background-color: #D5B6AE;
+}
+
+a {
+	color:white;
 }
