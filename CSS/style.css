@@ -4,12 +4,15 @@ body {
 
 h1 {
 	text-align: center;
-	color:#D5B6AE
+	font-size:38px;
+	font-family:'Times New Roman', Times, serif;
+	color:#D5B6AE;
+	font-weight:bold;
 }
 
 p {
 	text-align:center;
-	font-size:24px;
+	font-size:30px;
 	font-family:Garamond;
 }
 
