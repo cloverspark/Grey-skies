@@ -113,3 +113,23 @@ p a {
 p a:hover {
 	color: #D5B6AE;
 }
+
+
+
+#modern {
+	height:400px;
+	background-image:url(../IMAGES/ModernRound/IMG_7353.jpg);
+    background-size: 100%;
+}
+
+#main {
+	height:400px;
+	background-image:url(../IMAGES/main/IMG_2330.jpg);
+    background-size: 100%;
+}
+#layered {
+	height:400px;
+	background-image:url(../IMAGES/main/IMG_2330.jpg);
+    background-size: 100%;
+}
+
