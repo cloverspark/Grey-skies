@@ -129,7 +129,24 @@ p a:hover {
 }
 #layered {
 	height:400px;
-	background-image:url(../IMAGES/main/IMG_2330.jpg);
+	background-image:url(../IMAGES/LayeredArch/JM1_5129.jpeg);
     background-size: 100%;
 }
 
+#vintage {
+	height:400px;
+	background-image:url(../IMAGES/VintageMirror/_DSC0699.jpeg);
+    background-size: 100%;
+}
+
+#walnut {
+	height:400px;
+	background-image:url(../IMAGES/DarkWalnut/Donnie+Rosie+Photo-1086.jpg);
+    background-size: 100%;
+}
+
+#rustic {
+	height:400px;
+	background-image:url(../IMAGES/RusticWood/Donnie+Rosie+Photo+1-9559.jpg);
+    background-size: 100%;
+}
