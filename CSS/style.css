@@ -43,7 +43,7 @@ li {
 #checkAvailability {
 	color:white;
 	background-color: #D5B6AE;
-	padding:25px;
+	padding:15px;
 	margin:50px;
 	font-size:22px;
 	font-family:Arial, Helvetica, sans-serif;
@@ -57,7 +57,7 @@ li {
 #checkAvailability:hover {
 	color:white;
 	background-color: #e1cbc6;
-	padding:25px;
+	padding:15px;
 	margin:50px;
 	font-size:22px;
 	font-family:Arial, Helvetica, sans-serif;
