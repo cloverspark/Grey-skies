@@ -106,3 +106,10 @@ ul {
 img {
 	max-width:100%;
 }
+
+p a {
+	color: #D5B6AE;
+}
+p a:hover {
+	color: #D5B6AE;
+}
