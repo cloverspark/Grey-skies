@@ -12,6 +12,10 @@ p {
 	font-family:Garamond;
 }
 
+li {
+	font-size:18px;
+}
+
 .pNormal {
 	font-size:16px;
 	font-family:'Times New Roman', Times, serif;
