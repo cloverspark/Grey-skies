@@ -150,3 +150,26 @@ p a:hover {
 	background-image:url(../IMAGES/RusticWood/Donnie+Rosie+Photo+1-9559.jpg);
     background-size: 100%;
 }
+
+#form {
+	height:400px;
+	background-image:url(../IMAGES/main/WRNEWLOGOnobkground.png);
+    background-size: 100%;
+}
+
+label {
+	text-align:left;
+}
+
+form {
+	text-align:left;
+	margin-left:15%;
+}
+
+textarea {
+	width:80%;
+}
+
+input {
+	width:80%;
+}
