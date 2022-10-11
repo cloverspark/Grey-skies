@@ -124,7 +124,7 @@ p a:hover {
 
 #main {
 	height:400px;
-	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/main/IMG_2330.jpg); /* referenced https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
+	background-image:linear-gradient(rgba(0, 0, 0, 0.44),rgba(0, 0, 0, 0.44)), url(../IMAGES/main/IMG_2330.jpg); /* referenced https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
     background-size: 100%;
 	background-repeat:no-repeat;
 	background-position:center;/* referenced https://www.w3schools.com/cssref/pr_background-position.asp */
@@ -190,6 +190,15 @@ input {
 .carousel {
 	width:80%;
   }
+
+.centered {
+	text-align:center;
+}
+
+.centered img {
+	width:100%;
+	height:70%;
+}
 
 .vertical-center {
 	/* referenced https://www.w3schools.com/HOWTO/howto_css_center-vertical.asp */
