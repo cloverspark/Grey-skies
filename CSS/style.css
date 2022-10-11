@@ -115,7 +115,7 @@ p a:hover {
 	color: #D5B6AE;
 }
 
-#modern { /* referenced https://www.w3schools.com/cssref/pr_background-position.asp */
+#modern { 
 	height:400px;
 	background-image:url(../IMAGES/ModernRound/IMG_7353.jpg);
     background-size: 100%;
@@ -124,14 +124,15 @@ p a:hover {
 
 #main {
 	height:400px;
-	background-image:url(../IMAGES/main/IMG_2330.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/main/IMG_2330.jpg); /* referenced https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
     background-size: 100%;
 	background-repeat:no-repeat;
-	background-position:center;
+	background-position:center;/* referenced https://www.w3schools.com/cssref/pr_background-position.asp */
+	
 }
 #layered {
 	height:400px;
-	background-image:url(../IMAGES/LayeredArch/JM1_5129.jpeg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/LayeredArch/JM1_5129.jpeg);
     background-size: 100%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -139,7 +140,7 @@ p a:hover {
 
 #vintage {
 	height:400px;
-	background-image:url(../IMAGES/VintageMirror/_DSC0699.jpeg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/VintageMirror/_DSC0699.jpeg);
     background-size: 100%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -147,7 +148,7 @@ p a:hover {
 
 #walnut {
 	height:400px;
-	background-image:url(../IMAGES/DarkWalnut/Donnie+Rosie+Photo-1086.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/DarkWalnut/Donnie+Rosie+Photo-1086.jpg);
     background-size: 100%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -155,7 +156,7 @@ p a:hover {
 
 #rustic {
 	height:400px;
-	background-image:url(../IMAGES/RusticWood/Donnie+Rosie+Photo+1-9559.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/RusticWood/Donnie+Rosie+Photo+1-9559.jpg);
     background-size: 100%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -163,7 +164,7 @@ p a:hover {
 
 #form {
 	height:400px;
-	background-image:url(../IMAGES/main/WRNEWLOGOnobkground.png);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/main/WRNEWLOGOnobkground.png);
     background-size: 100%;
 	background-repeat:no-repeat;
 	background-position:center;
