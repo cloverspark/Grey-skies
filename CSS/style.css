@@ -106,47 +106,52 @@ p a:hover {
 	color: #D5B6AE;
 }
 
-
-
 #modern {
 	height:400px;
 	background-image:url(../IMAGES/ModernRound/IMG_7353.jpg);
     background-size: 100%;
+	background-repeat:no-repeat;
 }
 
 #main {
 	height:400px;
 	background-image:url(../IMAGES/main/IMG_2330.jpg);
     background-size: 100%;
+	background-repeat:no-repeat;
 }
 #layered {
 	height:400px;
 	background-image:url(../IMAGES/LayeredArch/JM1_5129.jpeg);
     background-size: 100%;
+	background-repeat:no-repeat;
 }
 
 #vintage {
 	height:400px;
 	background-image:url(../IMAGES/VintageMirror/_DSC0699.jpeg);
     background-size: 100%;
+	background-repeat:no-repeat;
 }
 
 #walnut {
 	height:400px;
 	background-image:url(../IMAGES/DarkWalnut/Donnie+Rosie+Photo-1086.jpg);
     background-size: 100%;
+	background-repeat:no-repeat;
 }
 
 #rustic {
 	height:400px;
 	background-image:url(../IMAGES/RusticWood/Donnie+Rosie+Photo+1-9559.jpg);
     background-size: 100%;
+	background-repeat:no-repeat;
 }
 
 #form {
 	height:400px;
 	background-image:url(../IMAGES/main/WRNEWLOGOnobkground.png);
     background-size: 100%;
+	background-repeat:no-repeat;
 }
 
 label {
