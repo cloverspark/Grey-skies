@@ -6,6 +6,15 @@ h1 {
 	font-weight:bold;
 }
 
+h2 {
+	text-align:center;
+	font-size:88px;
+	font-family:'Times New Roman', Times, serif;
+	font-style:italic;
+	color: white;
+	padding-top:30px;
+}
+
 p {
 	text-align:center;
 	font-size:30px;
@@ -17,6 +26,12 @@ li {
 }
 
 .pNormal {
+	font-size:16px;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.pRight {
+	text-align:right;
 	font-size:16px;
 	font-family:'Times New Roman', Times, serif;
 }
@@ -37,19 +52,39 @@ li {
 #checkAvailability {
 	color:white;
 	background-color: #D5B6AE;
+	padding:15px;
+	margin:50px;
+	font-size:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	border-radius:10em;
+	border-color: #D5B6AE;
+	border:none;
+}
+#checkAvailability:hover {
+	color:white;
+	background-color: #e1cbc6;
+	padding:15px;
+	margin:50px;
+	font-size:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	border-radius:10em;
+	border-color: #e1cbc6;
+	border:none;
 }
 
 button a {
 	color:white;
 }
 
-.vertical-center {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-  }
+button a:hover {
+	color:white;
+}
 
 #footer {
 	text-align:center;
@@ -67,4 +102,115 @@ button a {
 
 ul {
 	font-size:16px;
+}
+
+img {
+	max-width:100%;
+}
+
+p a {
+	color: #D5B6AE;
+}
+p a:hover {
+	color: #D5B6AE;
+}
+
+#modern { 
+	height:400px;
+	background-image:url(../IMAGES/ModernRound/IMG_7353.jpg);
+    background-size: 100%;
+	background-repeat:no-repeat;
+}
+
+#main {
+	height:400px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.44),rgba(0, 0, 0, 0.44)), url(../IMAGES/main/IMG_2330.jpg); /* referenced https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
+    background-size: 100%;
+	background-repeat:no-repeat;
+	background-position:center;/* referenced https://www.w3schools.com/cssref/pr_background-position.asp */
+	
+}
+#layered {
+	height:400px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/LayeredArch/JM1_5129.jpeg);
+    background-size: 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#vintage {
+	height:400px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/VintageMirror/_DSC0699.jpeg);
+    background-size: 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#walnut {
+	height:400px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/DarkWalnut/Donnie+Rosie+Photo-1086.jpg);
+    background-size: 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#rustic {
+	height:400px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/RusticWood/Donnie+Rosie+Photo+1-9559.jpg);
+    background-size: 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#form {
+	height:400px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../IMAGES/main/WRNEWLOGOnobkground.png);
+    background-size: 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+label {
+	text-align:left;
+}
+
+form {
+	text-align:left;
+	margin-left:15%;
+}
+
+textarea {
+	width:80%;
+}
+
+input {
+	width:80%;
+}
+
+.carousel {
+	width:80%;
+  }
+
+.centered {
+	text-align:center;
+}
+
+.centered img {
+	width:100%;
+	height:70%;
+}
+
+.vertical-center {
+	/* referenced https://www.w3schools.com/HOWTO/howto_css_center-vertical.asp */
+  }
+
+@media screen and (min-width: 800px)
+{
+	.vertical-center { /* https://www.w3schools.com/HOWTO/howto_css_center-vertical.asp */
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		}
 }
