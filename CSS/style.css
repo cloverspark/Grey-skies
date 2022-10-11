@@ -77,14 +77,6 @@ button a:hover {
 	color:white;
 }
 
-.vertical-center {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-  }
-
 #footer {
 	text-align:center;
 	background-color:#D5B6AE;
@@ -172,4 +164,19 @@ textarea {
 
 input {
 	width:80%;
+}
+
+.vertical-center {
+
+  }
+
+@media screen and (min-width: 800px)
+{
+	.vertical-center {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		}
 }
