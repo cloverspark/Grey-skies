@@ -187,6 +187,10 @@ input {
 	width:80%;
 }
 
+.carousel {
+	width:80%;
+  }
+
 .vertical-center {
 	/* referenced https://www.w3schools.com/HOWTO/howto_css_center-vertical.asp */
   }
